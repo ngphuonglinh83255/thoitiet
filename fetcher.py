@@ -1,9 +1,10 @@
-import requests, json, os
+import requests
 from datetime import datetime
+import gspread
+from google.oauth2.service_account import Credentials
 
 API_KEY = "b23631c8788d754ca739ac72ec55aa9c"
 
-# Danh sách các tỉnh/thành phố cần theo dõi
 CITIES = ["Ha Noi", "Ho Chi Minh", "Da Nang", "Hai Phong", "Can Tho"]
 
 def fetch_weather(city):
@@ -29,8 +30,16 @@ if __name__ == "__main__":
             records.append(data)
 
     if records:
-        with open("weather_log.json", "a", encoding='utf-8') as f:
-            for record in records:
-                f.write(json.dumps(record) + "\n")
+        # 🔐 Kết nối Google Sheets
+        creds = Credentials.from_service_account_file("weather-creds.json", scopes=["https://www.googleapis.com/auth/spreadsheets"])
+        client = gspread.authorize(creds)
 
-        print("✅ Dữ liệu thời tiết đã được cập nhật cho các tỉnh.")
+        # 📄 Mở sheet
+        sheet = client.open("weather-data").sheet1
+
+        # 📤 Ghi dữ liệu
+        for record in records:
+            row = [record["timestamp"], record["city"], record["temperature"], record["humidity"]]
+            sheet.append_row(row)
+
+        print("✅ Dữ liệu thời tiết đã được cập nhật lên Google Sheets.")

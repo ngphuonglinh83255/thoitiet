@@ -94,3 +94,35 @@
 {"timestamp": "2025-05-31 22:32:07", "city": "Ho Chi Minh", "temperature": 27.82, "humidity": 77}
 {"timestamp": "2025-05-31 22:32:07", "city": "Da Nang", "temperature": 26.99, "humidity": 94}
 {"timestamp": "2025-05-31 22:32:07", "city": "Can Tho", "temperature": 26.99, "humidity": 100}
+{"timestamp": "2025-05-31 23:02:05", "city": "Ha Noi", "temperature": 28, "humidity": 85}
+{"timestamp": "2025-05-31 23:02:05", "city": "Ho Chi Minh", "temperature": 27.82, "humidity": 77}
+{"timestamp": "2025-05-31 23:02:05", "city": "Da Nang", "temperature": 26.99, "humidity": 94}
+{"timestamp": "2025-05-31 23:02:06", "city": "Can Tho", "temperature": 26.99, "humidity": 100}
+{"timestamp": "2025-05-31 23:02:07", "city": "Ha Noi", "temperature": 28, "humidity": 85}
+{"timestamp": "2025-05-31 23:02:07", "city": "Ho Chi Minh", "temperature": 27.82, "humidity": 77}
+{"timestamp": "2025-05-31 23:02:07", "city": "Da Nang", "temperature": 26.99, "humidity": 94}
+{"timestamp": "2025-05-31 23:02:08", "city": "Can Tho", "temperature": 26.99, "humidity": 100}
+{"timestamp": "2025-05-31 23:32:05", "city": "Ha Noi", "temperature": 28, "humidity": 85}
+{"timestamp": "2025-05-31 23:32:05", "city": "Ho Chi Minh", "temperature": 27.26, "humidity": 77}
+{"timestamp": "2025-05-31 23:32:05", "city": "Da Nang", "temperature": 26.99, "humidity": 94}
+{"timestamp": "2025-05-31 23:32:06", "city": "Can Tho", "temperature": 26.99, "humidity": 100}
+{"timestamp": "2025-05-31 23:32:07", "city": "Ha Noi", "temperature": 28, "humidity": 85}
+{"timestamp": "2025-05-31 23:32:07", "city": "Ho Chi Minh", "temperature": 27.26, "humidity": 77}
+{"timestamp": "2025-05-31 23:32:07", "city": "Da Nang", "temperature": 26.99, "humidity": 94}
+{"timestamp": "2025-05-31 23:32:07", "city": "Can Tho", "temperature": 26.99, "humidity": 100}
+{"timestamp": "2025-06-01 00:02:05", "city": "Ha Noi", "temperature": 28, "humidity": 86}
+{"timestamp": "2025-06-01 00:02:06", "city": "Ho Chi Minh", "temperature": 26.71, "humidity": 81}
+{"timestamp": "2025-06-01 00:02:06", "city": "Da Nang", "temperature": 26.99, "humidity": 94}
+{"timestamp": "2025-06-01 00:02:07", "city": "Can Tho", "temperature": 26.99, "humidity": 100}
+{"timestamp": "2025-06-01 00:02:08", "city": "Ha Noi", "temperature": 28, "humidity": 86}
+{"timestamp": "2025-06-01 00:02:08", "city": "Ho Chi Minh", "temperature": 26.71, "humidity": 81}
+{"timestamp": "2025-06-01 00:02:09", "city": "Da Nang", "temperature": 26.99, "humidity": 94}
+{"timestamp": "2025-06-01 00:02:10", "city": "Can Tho", "temperature": 26.99, "humidity": 100}
+{"timestamp": "2025-06-01 09:30:46", "city": "Ha Noi", "temperature": 32, "humidity": 54}
+{"timestamp": "2025-06-01 09:30:46", "city": "Ho Chi Minh", "temperature": 30.6, "humidity": 75}
+{"timestamp": "2025-06-01 09:30:46", "city": "Da Nang", "temperature": 32.99, "humidity": 55}
+{"timestamp": "2025-06-01 09:30:47", "city": "Can Tho", "temperature": 31.99, "humidity": 74}
+{"timestamp": "2025-06-01 09:30:50", "city": "Ha Noi", "temperature": 32, "humidity": 54}
+{"timestamp": "2025-06-01 09:30:51", "city": "Ho Chi Minh", "temperature": 30.6, "humidity": 75}
+{"timestamp": "2025-06-01 09:30:51", "city": "Da Nang", "temperature": 32.99, "humidity": 55}
+{"timestamp": "2025-06-01 09:30:51", "city": "Can Tho", "temperature": 31.99, "humidity": 74}
