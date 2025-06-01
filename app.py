@@ -75,29 +75,6 @@ def main():
     df_filtered = df_history[df_history["city"].isin(selected_cities)].copy()
     df_filtered.sort_values(by="time", inplace=True)
 
-     # ✅ Tính năng CẢNH BÁO
-    st.subheader("⚠️ Cảnh báo Thời tiết")
-
-    for weather in new_data:
-        city = weather["city"]
-        temp = weather["temperature"]
-        humidity = weather["humidity"]
-        desc = weather["description"]
-
-        if temp >= 35:
-            st.error(f"🔥 {city}: Nhiệt độ cao ({temp}°C) - Cẩn thận sốc nhiệt!")
-        elif temp <= 10:
-            st.warning(f"❄️ {city}: Nhiệt độ thấp ({temp}°C) - Cần giữ ấm!")
-        
-        if humidity >= 90:
-            st.warning(f"💧 {city}: Độ ẩm cao ({humidity}%) - Khả năng có mưa lớn.")
-        elif humidity <= 30:
-            st.info(f"🌵 {city}: Độ ẩm thấp ({humidity}%) - Không khí khô.")
-        
-        if "rain" in desc.lower():
-            st.warning(f"☔ {city}: {desc} - Nhớ mang theo ô!")
-        if "storm" in desc.lower():
-            st.error(f"⛈️ {city}: {desc} - Cảnh báo giông bão!")
     # Vẽ biểu đồ đường Nhiệt độ theo thời gian với đường cong spline
     fig_temp = px.line(
         df_filtered,
